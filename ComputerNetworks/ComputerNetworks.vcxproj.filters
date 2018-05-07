@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\framework">
+      <UniqueIdentifier>{83a9b9d0-acb2-4b6c-a441-7ada2476d8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\structures">
+      <UniqueIdentifier>{29d6e24b-5f5e-44c9-9532-cb300bf3fcd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\structures\L4">
+      <UniqueIdentifier>{d6605003-1a43-4434-a179-2a482c6d1249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\structures\L3">
+      <UniqueIdentifier>{5a16d9d1-19ac-4b87-83d0-8b623858e13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\structures\L2">
+      <UniqueIdentifier>{8fdd91e2-1f9b-4884-a951-148870335be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework">
+      <UniqueIdentifier>{0b0c3617-07aa-4ba7-bca5-e54528ec4225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\framework\Constructor">
+      <UniqueIdentifier>{0170c65b-dff0-4aff-b13e-729beee3e058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\Constructor">
+      <UniqueIdentifier>{f3bbfaf5-1805-494a-8644-72a47b6749c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\structures\L567">
+      <UniqueIdentifier>{cb405bfd-3876-4e05-a277-1c04b975ba8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\structures">
+      <UniqueIdentifier>{c86e8d2c-795f-4c48-b876-81e087321984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\framework\network">
+      <UniqueIdentifier>{1fcd2255-a08c-452a-af8f-40cd3593db6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\network">
+      <UniqueIdentifier>{55aba7f9-d3d1-4c54-bb8a-4e16802777ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemBlock.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="toolkit.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="endian.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ArpConstructor.cpp">
+      <Filter>Source Files\framework\Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="EthernetConstructor.cpp">
+      <Filter>Source Files\framework\Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="IPv4Constructor.cpp">
+      <Filter>Source Files\framework\Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="UdpConstructor.cpp">
+      <Filter>Source Files\framework\Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="RipConstructor.cpp">
+      <Filter>Source Files\framework\Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="rip.cpp">
+      <Filter>Source Files\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="DataLayer.cpp">
+      <Filter>Source Files\framework\Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="ArgParser.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ArpCache.cpp">
+      <Filter>Source Files\framework\network</Filter>
+    </ClCompile>
+    <ClCompile Include="checksum.cpp">
+      <Filter>Source Files\framework\network</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp.cpp">
+      <Filter>Source Files\structures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="toolkit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ethernet.h">
+      <Filter>Header Files\structures\L2</Filter>
+    </ClInclude>
+    <ClInclude Include="arp.h">
+      <Filter>Header Files\structures\L3</Filter>
+    </ClInclude>
+    <ClInclude Include="ipv4.h">
+      <Filter>Header Files\structures\L3</Filter>
+    </ClInclude>
+    <ClInclude Include="icmp.h">
+      <Filter>Header Files\structures\L4</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp.h">
+      <Filter>Header Files\structures\L4</Filter>
+    </ClInclude>
+    <ClInclude Include="udp.h">
+      <Filter>Header Files\structures\L4</Filter>
+    </ClInclude>
+    <ClInclude Include="ipv6.h">
+      <Filter>Header Files\structures\L3</Filter>
+    </ClInclude>
+    <ClInclude Include="endian.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MemBlock.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="EthernetConstructor.h">
+      <Filter>Header Files\framework\Constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="tcpip.h">
+      <Filter>Header Files\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="ArpConstructor.h">
+      <Filter>Header Files\framework\Constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="IPv4Constructor.h">
+      <Filter>Header Files\framework\Constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpConstructor.h">
+      <Filter>Header Files\framework\Constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="rip.h">
+      <Filter>Header Files\structures\L567</Filter>
+    </ClInclude>
+    <ClInclude Include="RipConstructor.h">
+      <Filter>Header Files\framework\Constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataLayer.h">
+      <Filter>Header Files\framework\Constructor</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgParser.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ICallback.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ArpCache.h">
+      <Filter>Header Files\framework\network</Filter>
+    </ClInclude>
+    <ClInclude Include="checksum.h">
+      <Filter>Header Files\framework\network</Filter>
+    </ClInclude>
+    <ClInclude Include="ILayerConstructor.h">
+      <Filter>Header Files\framework\network</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerStack.h">
+      <Filter>Header Files\framework\network</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerType.h">
+      <Filter>Header Files\framework\network</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
